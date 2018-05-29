@@ -129,7 +129,7 @@ class Master extends React.Component {
 		}
 
 		return (
-			<BrowserRouter basename="/when-to-travel">
+			<BrowserRouter basename="/travel-web">
 				<div
 					id="main"
 					className={`country-${this.state.country} page-${this.state.page} month-${this.state.month} browser-${this.state.browser}`}
